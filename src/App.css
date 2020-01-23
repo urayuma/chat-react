@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 見ログイン画面 */
+h1 {
+  font-size: 12rem;
+  margin: 4rem 6rem 0rem 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginBlock {
+  float: right;
+  margin-right: 16rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginBlock p {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.loginBlock button {
+  font-size: 1.2rem;
+  height: 2.4rem;
+  width: 14rem;
+  border-radius: 4rem;
+}
+
+/* ログイン中の画面 */
+.nowLogin {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loginUser {
+  width: 26rem;
+  font-size: 1.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.User-info {
+  padding: 2rem 0rem 1rem;
+  margin-left: 2rem;
 }
+
+.btn-logout-box {
+  padding: 0rem 0.2rem 0.2rem 12rem;
+}
+
+.btn-logout {
+  height: 2.4rem;
+  width: 8rem;
+  font-size: 1rem;
+}
+
+.chatSpace {
+  display: inline;
+}
+
+/* ログインボタンにフォントオーサムをつけたい */
+/* .loginBlock button::before {
+  font-family: "Font Awesome 5 Free";
+  /* font-weight: 900; */
+/* } */
+
+/* .googleButton::before {
+  content: \f1a0;
+/* }  */
