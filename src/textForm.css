@@ -1,0 +1,20 @@
+.textAdd {
+  display: flex;
+}
+
+.textForm {
+  height: 2.6rem;
+  width: 50rem;
+  font-size: 1.8rem;
+  position: relative;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
+.textBtn {
+  height: 2.7rem;
+  width: 3.6rem;
+  position: absolute;
+  left: 51.3rem;
+}

@@ -1,0 +1,20 @@
+.groups {
+  height: 32.1rem;
+  width: 26rem;
+  font-size: 1.4rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.groupName {
+  text-align: left;
+}
+
+.chatRoom {
+  position: absolute;
+  top: -8rem;
+  left: 22rem;
+  height: 47.6rem;
+  width: 62rem;
+  padding: 2rem;
+}
