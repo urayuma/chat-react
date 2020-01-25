@@ -49,10 +49,8 @@ class App extends Component {
                 <button className="btn-logout" onClick={this.logout}>Logout</button>
               </div>
               <Group />
-              {/* <GroupAdd /> */}
             </div>
             <div className="chatSpace">
-              {/* <Chat /> */}
             </div>
           </div>
         ) : (
